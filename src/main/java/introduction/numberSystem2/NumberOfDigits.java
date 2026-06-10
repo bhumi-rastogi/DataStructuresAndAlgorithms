@@ -1,4 +1,4 @@
-package introduction.numberSystem;
+package introduction.numberSystem2;
 import java.util.*;
 public class NumberOfDigits {
     public static void main(String[] args) {
