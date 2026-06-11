@@ -14,12 +14,12 @@ public class RotateNumber {
             temp/=10;
         }
 
-        k = k%len;
-        if (k<0){
-            k+=len;
+        k = k % len;
+        if (k < 0){
+            k += len;
         }
 
-        //k lies between 0 and len-1
+        //Now, k lies between 0 and len-1
         int divisor = (int)(Math.pow(10,k));
         int mul = (int)(Math.pow(10,len-k));
 
@@ -27,6 +27,7 @@ public class RotateNumber {
         int quotient = num / divisor;
 
         int rotatedNumber = remainder * mul + quotient;
+
         System.out.println("Rotated number is: " + rotatedNumber);
 
 
