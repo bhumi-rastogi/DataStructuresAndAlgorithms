@@ -20,6 +20,7 @@ public class Pattern2 {
             System.out.println();
             stars--;
             current_number_of_line++;
+            
         }
     }
 }
